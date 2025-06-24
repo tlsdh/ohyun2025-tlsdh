@@ -6,17 +6,18 @@ body {
   padding: 0;
 }
 #app {
-  max-width: 800px;
-  margin: 40px auto;
+  max-width: 700px;
+  margin: 40px auto; /* 좌우 가운데 정렬 */
   background: #fff;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-  padding: 32px 24px;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
 }
 .board-title {
+  text-align: center;
   font-size: 2rem;
-  font-weight: bold;
   margin-bottom: 24px;
+  font-weight: bold;
 }
 .post-list {
   width: 100%;
